@@ -90,7 +90,7 @@ export default function MatchResult() {
               </div>
               <h4 className="text-lg font-medium">No job offers available</h4>
               <p className="text-sm text-muted-foreground text-center max-w-sm mt-2">
-                Click the "New Job Offer" button above to upload your first tender or job description.
+                Click the &quot;New Job Offer&quot; button above to upload your first tender or job description.
               </p>
             </div>
           ) : (

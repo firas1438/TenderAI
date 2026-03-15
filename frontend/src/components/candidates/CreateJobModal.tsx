@@ -1,7 +1,7 @@
 "use client";
 import { useState, KeyboardEvent } from "react";
 import { useJobs } from "@/store/jobStore";
-import { X, Plus, Trash2 } from "lucide-react";
+import { Plus, Trash2 } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import { AlertDialog, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogFooter, AlertDialogCancel, } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";

@@ -13,7 +13,7 @@ const Hero = () => {
 
         <Image src="/images/hero.svg" alt="" width={1024} height={1024} className="absolute inset-x-0 -top-16 w-full z-10 min-w-full" />
 
-        <Wrapper className="pt-14 md:pt-10 pb-14 px-2 sm:px-0">
+        <Wrapper className="pt-14 md:pt-10 pb-14 px-4 sm:px-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full z-10">
             {/* left column */}
             <div className="flex flex-col items-center lg:items-start justify-center">

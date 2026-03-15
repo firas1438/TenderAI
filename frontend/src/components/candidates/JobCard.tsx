@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { useJobs } from "@/store/jobStore";
 import { useRouter } from "next/navigation";
-import { Upload, Play, Trash2, FileText, Loader2, CheckCircle, Eye, } from "lucide-react";
+import { Upload, Play, Trash2, FileText, Loader2, Eye } from "lucide-react";
 import { uploadCV, matchCVs, deleteJobData } from "@/services/api";
 import { Job } from "@/types";
 import { toast } from "@/hooks/use-toast";
@@ -49,7 +49,7 @@ export default function JobCard({ job }: Props) {
           title: "Upload complete!",
           description: `${file.name} has been successfully uploaded.`,
         });
-      } catch (err: any) {
+      } catch (err) {
         const msg = err?.response?.data?.detail ?? `Failed to upload ${file.name}`;
         toast({
           title: "Upload failed!",
@@ -83,7 +83,7 @@ export default function JobCard({ job }: Props) {
         title: "Matching complete!",
         description: "AI matching is complete! View results now.",
       });
-    } catch (err: any) {
+    } catch (err) {
       const msg = err?.response?.data?.detail ?? "Matching failed. This is most likely a server error.";
       toast({
         title: "Matching failed!",

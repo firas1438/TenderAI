@@ -1,7 +1,7 @@
 "use client";
 
 import { useJobs } from "@/store/jobStore";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import { ArrowLeft, CheckCircle, XCircle, AlertCircle } from "lucide-react";
 import { CandidateMatch } from "@/types";
 import { ReactNode } from "react";
@@ -37,7 +37,7 @@ export default function CandidateMatchPage() {
           <div className="space-y-4 max-w-md">
             <h2 className="text-2xl font-semibold tracking-tight">Job offer not found</h2>
             <p className="text-muted-foreground">
-              The job you're looking for doesn't exist or may have been deleted.
+              The job you&apos;re looking for doesn&apos;t exist or may have been deleted.
             </p>
             <Link href="/candidates">
               <Button className="mt-4">
