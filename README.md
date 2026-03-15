@@ -114,9 +114,8 @@ GROQ_API_KEY=your_groq_api_key
 ```
 Get a free Groq key at: https://console.groq.com
 
-**3. Start the API server**
+**3. Start the server**
 ```bash
-cd backend
 python -m uvicorn main:app --reload
 ```
 
