@@ -1,6 +1,8 @@
-# Tender AI – CV Matching App
+# Tender AI - CV Matching App
 
 This project is a full‑stack web app that helps recruiters match candidate CVs to job offers/tenders using an AI‑powered ranking pipeline.
+
+![App Preview](https://i.imgur.com/CCj5Iv3.png)
 
 
 ## What It Does
